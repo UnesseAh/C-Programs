@@ -16,8 +16,8 @@ int main(){
     float radiusPowerThree = power;
 
     //Volume of a sphere =  (4*pi*radius^3/3)
-    float PI = 3.14;
-    float volume = (4*PI*radiusPowerThree/3);
+    const float PI = 3.14;
+    float volume = (4*PI*radiusPowerThree/3); // (4 * PI * pow(radius,3) / 3);
 
     printf("The volume of this sphere is : %.2f", volume);
 
