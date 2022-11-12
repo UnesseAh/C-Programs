@@ -10,15 +10,14 @@ int main(){
     scanf("%d", &B);
 
     //Methode 1:
-    if(A > 0 && B > 0){
-        printf("They have the same sign!");
-    }else if(A < 0 && B < 0){
-        printf("They have the same sign!");
+    if(A > 0 && B > 0) {
+        printf("%d and %d have the same sign!", A, B);
+    }else if(A < 0 && B < 0) {
+        printf("%d and %d have the same sign!", A, B);
     }else {
-        printf("They don't have the same sign!");
+        printf("%d and %d don't share the same sign!", A, B);
     }
-
     //Methode 2:
-    // (A * B > 0) ? printf("They have the same sign!") : printf("They don't have the same sign!");
+    // (A * B > 0) ? printf("They have the same sign!") : printf("They don't share the same sign!");
     return 0;
 }
